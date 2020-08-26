@@ -1564,6 +1564,17 @@ libs.bitcoin.networks.zencash = {
   wif: 0x80,
 };
 
+bitcoinjs.bitcoin.networks.zencash_testnet = {
+  messagePrefix: '\x18Zcash Signed Message:\n',
+  bip32: {
+    public: 0x043587CF,
+    private: 0x04358394,
+  },
+  pubKeyHash: 0x2098,
+  scriptHash: 0x2092,
+  wif: 0xEF,
+};
+
 libs.bitcoin.networks.energi = {
   messagePrefix: 'DarkCoin Signed Message:\n',
   bip32: {

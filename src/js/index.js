@@ -3411,6 +3411,13 @@
                 setHdCoin(121);
             },
         },
+        {
+            name: "ZEN - Zencash - Testnet",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.zencash_testnet;
+                setHdCoin(121);
+            },
+        },
     ]
 
     var clients = [
